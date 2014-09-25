@@ -512,10 +512,10 @@ a.btn-boxy {
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         .main-header .container .logo {
           background-image: url("../images/logo_small@2x.png");
-          -webkit-background-size: 156px 43px;
-          -moz-background-size: 156px 43px;
-          -o-background-size: 156px 43px;
-          background-size: 156px 43px; } }
+          -webkit-background-size: 158px 39px;
+          -moz-background-size: 158px 39px;
+          -o-background-size: 158px 39px;
+          background-size: 158px 39px; } }
       .main-header .container .logo h1 {
         *display: none; }
     .main-header .container .mobile_icon {
@@ -550,7 +550,8 @@ a.btn-boxy {
         background: #e5f6f3; }
     .main-header .container .top-navigation {
       float: right;
-      margin-top: 24px; }
+      margin-top: 24px;
+      margin-right:21px;}
       .main-header .container .top-navigation ul {
         list-style: none; }
         .main-header .container .top-navigation ul li {
@@ -560,7 +561,7 @@ a.btn-boxy {
           *display: inline;
           *vertical-align: auto;
           float: left;
-          margin-right: 40px; }
+          margin-right: 25px; }
           .main-header .container .top-navigation ul li a {
             display: block;
             height: 12px;
@@ -613,7 +614,7 @@ a.btn-boxy {
     .main-header .container .logo {
       background-position: left center;
       width: 118px;
-      background-image: url("../images/pycon_mobie_logo.png"); }
+      background-image: url("../images/pycon_mobile_logo.png"); }
     .main-header .container a.btn-boxy.buy-tickets {
       float: right;
       margin-top: 18px;
@@ -626,7 +627,7 @@ a.btn-boxy {
       box-shadow: 0px 0px 0px 0 #019882; } }
     @media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (min-resolution: 2dppx), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 2dppx) {
       .main-header .container .logo {
-        background-image: url("../images/pycon_mobie_logo@2x.png");
+        background-image: url("../images/pycon_mobile_logo@2x.png");
         -webkit-background-size: 118px 28px;
         -moz-background-size: 118px 28px;
         -o-background-size: 118px 28px;
@@ -650,7 +651,7 @@ a.btn-boxy {
       width: 100%;
       height: inherit; }
       .home-sticky-nav .top-navigation ul li {
-        width: 20%;
+        width: 14%;
         margin: 0;
         float: left;
         height: inherit; }
@@ -786,8 +787,8 @@ a.btn-boxy {
         -o-background-size: 299px 287px;
         background-size: 299px 287px; } }
   .main-header-home .logo {
-    width: 645px;
-    height: 168px;
+    width: 643px;
+    height: 155px;
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -820,6 +821,7 @@ a.btn-boxy {
         font-size: 24px;
         line-height: 30px; }
   .main-header-home a.btn-boxy.buy-tickets {
+    margin-right: 20px;
     background: #fff;
     border: 1px solid #00A990;
     color: #00A990;
@@ -834,7 +836,7 @@ a.btn-boxy {
       padding-right: 5%; }
     .main-header-home .logo {
       width: 570px;
-      height: 150px;
+      height: 137px;
       background-size: 100% 100%; }
     .main-header-home .desc {
       width: 65%;
@@ -844,7 +846,7 @@ a.btn-boxy {
       background-size: 250px auto; }
     .main-header-home .logo {
       width: 500px;
-      height: 130px;
+      height: 120px;
       background-size: 100% 100%; } }
   @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
     .main-header-home .bg-trianlge {
@@ -854,8 +856,8 @@ a.btn-boxy {
       padding: 20px 5%; }
     .main-header-home .logo {
       margin-bottom: 20px;
-      width: 250px;
-      height: 66px;
+      width: 316px;
+      height: 78px;
       background-size: 100% 100%; }
     .main-header-home .desc {
       width: auto;
@@ -1340,7 +1342,7 @@ a.btn-boxy {
         -o-background-size: 52px 60px;
         background-size: 52px 60px; } }
   .page-home.section-speakers .block-wrapper {
-    width: 31%;
+    width: 48%;
     margin-right: 3.5%;
     float: left;
     padding-bottom: 5px; }
@@ -1732,9 +1734,12 @@ a.btn-boxy {
       margin-right: 3.5%; }
       .page-home.section-sponsors .sponsors-wrapper .sponsor-item.gold:nth-of-type(3n+0) {
         margin-right: 0; }
-    .page-home.section-sponsors .sponsors-wrapper .sponsor-item.silver, .page-home.section-sponsors .sponsors-wrapper .sponsor-item.bronze {
+    .page-home.section-sponsors .sponsors-wrapper .sponsor-item.silver {
       width: 23%;
       margin-right: 2.6%; }
+    .page-home.section-sponsors .sponsors-wrapper .sponsor-item.bronze {
+      width: 16%;
+      margin-right: 2.0%; }
       .page-home.section-sponsors .sponsors-wrapper .sponsor-item.silver:nth-of-type(4n+0), .page-home.section-sponsors .sponsors-wrapper .sponsor-item.bronze:nth-of-type(4n+0) {
         margin-right: 0; }
     .page-home.section-sponsors .sponsors-wrapper .sponsor-item img {
@@ -2534,6 +2539,17 @@ a.btn-boxy {
 .page-venue.section-nearby-hotels {
   padding: 40px 0;
   background: #EFF4F7; }
+  .page-venue.section-nearby-hotels img {
+    width: 23%;
+    margin-top: 20px;
+    border: 1px solid #414954;
+    background: none repeat scroll 0% 0% #FFF;
+    box-shadow: 5px 5px 0px 0px #6D7B8D;
+  }
+  .page-venue.section-nearby-hotels .content-wrapper p {
+    width: 74%;
+    float: right;
+  }
   .page-venue.section-nearby-hotels h2 {
     font-size: 36px;
     color: #6799b5;
@@ -2661,6 +2677,15 @@ a.btn-boxy {
     @media screen and (max-width: 959px), screen and (max-width: 959px) and (-webkit-min-device-pixel-ratio: 1.3) {
       .page-sponsors.section-sponsors h2 {
         font-size: 28px; } }
+    .page-sponsors.section-sponsors h2#sponsors_platinum {
+      background-image: url("../images/platinum_icon.png"); }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .page-sponsors.section-sponsors h2#sponsors_platinum {
+          background-image: url("../images/platinum_icon@2x.png");
+          -webkit-background-size: 52px 60px;
+          -moz-background-size: 52px 60px;
+          -o-background-size: 52px 60px;
+          background-size: 52px 60px; } }
     .page-sponsors.section-sponsors h2#sponsors_gold {
       background-image: url("../images/gold_icon.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -2684,6 +2709,15 @@ a.btn-boxy {
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         .page-sponsors.section-sponsors h2#sponsors_bronze {
           background-image: url("../images/bronze_icon@2x.png");
+          -webkit-background-size: 52px 60px;
+          -moz-background-size: 52px 60px;
+          -o-background-size: 52px 60px;
+          background-size: 52px 60px; } }
+    .page-sponsors.section-sponsors h2#sponsors_accommodation {
+      background-image: url("../images/nearby_hotels_icon.png"); }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .page-sponsors.section-sponsors h2#sponsors_accommodation {
+          background-image: url("../images/nearby_hotels_icon@2x.png");
           -webkit-background-size: 52px 60px;
           -moz-background-size: 52px 60px;
           -o-background-size: 52px 60px;
@@ -2840,3 +2874,85 @@ a.btn-boxy {
         -webkit-box-shadow: 0px 0px 0px 0 #6d7b8d;
         -moz-box-shadow: 0px 0px 0px 0 #6d7b8d;
         box-shadow: 0px 0px 0px 0 #6d7b8d; } }
+
+#charts > section {
+  height: 400px;
+  width: 100%;
+  margin: 3em 0;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #2b542c;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  color: #66512c;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}

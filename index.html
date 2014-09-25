@@ -7,22 +7,22 @@ title: Home
     <div class="container">
       <div class="block-wrapper">
         <div class="block green">
-          <h3>Call for Sponsors</h3>
+          <h3>Python Express</h3>
           <div class="border-line green"></div>
-          <p>Earn some brownie points by sponsoring PyCon! <a target="_blank" href="sponsorship-prospectus.pdf">Here is the Sponsorship Prospectus</a>.</p>
+          <p>A month full of Python Workshops across the country! <a target="_blank" href="/2014/blog/python-month-is-back-as-python-express/">More details in this blog post</a>.</p>
           <h4>Need more information?</h4>
-          <a class="email" href="mailto:contact@in.pycon.org">contact@in.pycon.org</a>
+          <a class="email" href="http://www.pythonexpress.in/">Visit Python Express Website</a>
           <div class="border-line short green"></div>
         </div>
       </div>
 
       <div class="block-wrapper">
         <div class="block orange">
-          <h3>Call for Proposals</h3>
+          <h3>Initial Schedule Published!</h3>
           <div class="border-line orange"></div>
-          <p>Share your knowledge. Let your ideas flow. CFP is now open! Propose a session now.</p>
-          <a href="http://in.pycon.org/funnel/2014/"><h4>Propose A Session</h4></a>
-          <a class="email" href="http://in.pycon.org/funnel/2014/">Head for the funnel</a>
+          <p>We've released the event schedule. <a target="_blank" href="/2014/blog/the-conference-schedule-is-up/">More details in this blog post</a>.</p>
+          <a href="/2014/schedule.html"><h4>Head for the Schedule page</h4></a>
+          <a class="email" href="http://pyconindia2014.doattend.com/">Book Your Tickets Now!</a>
           <div class="border-line short orange"></div>
         </div>
       </div>
@@ -31,7 +31,7 @@ title: Home
         <div class="block green">
           <h3>Call for Volunteers</h3>
           <div class="border-line green"></div>
-          <p>Help us organize and make this conference successful. <a target="_blank" href="https://mail.python.org/mailman/listinfo/inpycon">Join the mailing list</a>.</p>
+          <p>Help us organize and make this conference successful. <a href="/2014/blog/call-for-volunteers/">Read more about it</a>.</p>
           <h4>Contact</h4>
           <a class="email" href="mailto:contact@in.pycon.org">contact@in.pycon.org</a>
           <div class="border-line short green"></div>
@@ -41,9 +41,9 @@ title: Home
     </div>
   </section>
 
-  <!-- <section class="page-home section-speakers" id="section_speakers">
+  <section class="page-home section-speakers" id="section_speakers">
     <div class="container">
-      <a href="speakers.html" class="btn-boxy view-all">View All</a>
+      <a href="{{ site.baseurl }}/speakers.html" class="btn-boxy view-all">View All</a>
       <h2>Speakers</h2>
 
       <div class="block-wrapper">
@@ -52,13 +52,13 @@ title: Home
           <div class="block-content">
             <div class="thumb home">
               <div class="hexagon hexagon2"><div class="hexagon-in1">
-                <a href="speakers.html#speaker_1"><div class="hexagon-in2" style="background-image: url(images/speaker.jpg);"></div></a>
+                <a href="speakers.html#speaker_1"><div class="hexagon-in2" style="background-image: url(static/images/speaker_kushal_das_cropped.jpg);"></div></a>
               </div></div>
             </div>
-            <h3><a href="speakers.html#speaker_1">Kenneth Reitz</a></h3>
+            <h3><a href="{{ site.baseurl }}/speakers.html#speaker_1">Kushal Das</a></h3>
             <div class="work">Keynote Speaker</div>
-            <a class="social twitter" href=""></a>
-            <a class="social github" href=""></a>
+            <a href="https://twitter.com/kushaldas" target="_blank" class="social twitter"></a>
+            <a href="https://github.com/kushaldas" target="_blank" class="social github"></a>
           </div>
         </div>
       </div>
@@ -69,37 +69,20 @@ title: Home
           <div class="block-content">
             <div class="thumb home">
               <div class="hexagon hexagon2"><div class="hexagon-in1">
-                <a href="speakers.html#speaker_2"><div class="hexagon-in2" style="background-image: url(images/speaker.jpg);"></div></a>
+                <a href="{{ site.baseurl }}/speakers.html#speaker_2"><div class="hexagon-in2" style="background-image: url(static/images/speaker_michael_foord_cropped.jpg);"></div></a>
               </div></div>
             </div>
-            <h3><a href="speakers.html#speaker_2">Kenneth Reitz</a></h3>
+            <h3><a href="speakers.html#speaker_2">Michael Foord</a></h3>
             <div class="work">Keynote Speaker</div>
-            <a class="social twitter" href=""></a>
-            <a class="social github" href=""></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="block-wrapper">
-        <div class="block">
-          <div class="bg"></div>
-          <div class="block-content">
-            <div class="thumb home">
-              <div class="hexagon hexagon2"><div class="hexagon-in1">
-                <a href="speakers.html#speaker_3"><div class="hexagon-in2" style="background-image: url(images/speaker.jpg);"></div></a>
-              </div></div>
-            </div>
-            <h3><a href="speakers.html#speaker_1">Kenneth Reitz</a></h3>
-            <div class="work">Keynote Speaker</div>
-            <a class="social twitter" href=""></a>
-            <a class="social github" href=""></a>
+            <a href="https://twitter.com/voidspace" target="_blank" class="social twitter"></a>
+            <a href="https://github.com/voidspace" target="_blank" class="social github"></a>
           </div>
         </div>
       </div>
 
       <div class="clr"></div>
     </div>
-  </section> -->
+  </section>
 
   <section class="page-home section-schedule" id="section_schedule">
     <div class="container">
@@ -163,18 +146,27 @@ title: Home
     </div>
   </section>
 
-  <!-- <section class="page-home section-sponsors" id="section_sponsors">
+  <section class="page-home section-sponsors" id="section_sponsors">
     <div class="container">
       <a href="sponsors.html" class="btn-boxy view-all">View All</a>
       <h2>Sponsors</h2>
+
+      <h3>Platinum</h3>
+      <div class="border-line white"></div>
+
+      <div class="sponsors-wrapper">
+        <div class="sponsor-item platinum"><img src="static/images/sponsor_zeomega.jpg"/></div>
+        <div class="clr"></div>
+      </div>
 
       <h3>Gold</h3>
       <div class="border-line white"></div>
 
       <div class="sponsors-wrapper">
-        <div class="sponsor-item gold"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item gold"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item gold"><img src="static/images/sponsor_logo.jpg"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_plotly.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_bluejeans.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_goibibo.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_knowlarity.png"/></div>
         <div class="clr"></div>
       </div>
 
@@ -182,26 +174,24 @@ title: Home
       <div class="border-line white"></div>
 
       <div class="sponsors-wrapper">
-        <div class="sponsor-item silver"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item silver"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item silver"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item silver"><img src="static/images/sponsor_logo.jpg"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_projectplace_new.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_helpshift.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_fspace.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_mysql.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_redhat.png"/></div>
         <div class="clr"></div>
       </div>
 
-      <h3>Bronze</h3>
+      <h3>Accommodation Partner</h3>
       <div class="border-line white"></div>
 
       <div class="sponsors-wrapper">
-        <div class="sponsor-item bronze"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item bronze"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item bronze"><img src="static/images/sponsor_logo.jpg"/></div>
-        <div class="sponsor-item bronze"><img src="static/images/sponsor_logo.jpg"/></div>
+        <div class="sponsor-item bronze"><a href="venue.html#airbnb"><img src="static/images/partner_airbnb.png"/></a></div>
         <div class="clr"></div>
       </div>
 
     </div>
-  </section> -->
+  </section>
 
   <section class="page-home section-updates" id="section_updates">
     <div class="container">
@@ -212,7 +202,7 @@ title: Home
         <div class="blog-wrapper">
           {% for post in site.posts %}
             <div class="post">
-              <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+              <div class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
               <div class="date">Published / {{ post.date | date_to_string }}</div>
               <div class="border-line short"></div>
               <div class="text">
